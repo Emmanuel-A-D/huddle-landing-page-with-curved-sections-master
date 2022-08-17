@@ -5,54 +5,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/3b92c29675.js" crossorigin="anonymous"></script>
   <title>Huddle landing page with curved sections</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <p> <img class="icon" src="images/icon-messages.svg" alt="icon"> Huddle</p> <button class="button_header">Try it free</button> 
+  <header>
+    <div class="header">
+      <p> <img class="icon" src="images/icon-messages.svg" alt="icon"> Huddle</p> 
+      <button class="button_header">Try it free</button>
+    </div>
   </header>
   <main>
     <section class="intro">
       <h1> Build The Community Your Fans Will Love </h1>
-      <p> Huddle re-imagines the way we build communities. You have a voice, but so does 
-      your audience. Create connections with your users as you engage in genuine discussion.</p> 
-      <button> Get Started For Free </button> 
+      <p> Huddle re-imagines the way we build communities. You have a <br> 
+        voice, but so does your audience. Create connections with your <br> 
+        users as you engage in genuine discussion.</p> 
+      <button class="button_intro"> Get Started For Free </button> 
     </section>
     <div class="img_chat">
       <img src="images/screen-mockups.svg" alt="image_Illustration">
     </div>
     <div class="indicators">
       <div class="indicators_communites">
-        <img class="icon" src="images/icon-communities.svg" alt="icon">
-        <p> 1.4k+ </p>
+        <img class="icon_indicators" src="images/icon-communities.svg" alt="icon">
+        <p class="indicators_p"> 1.4k+ </p>
         <p> Communities Formed </p>
       </div>
       <div class="indicators_menssages">
-        <img class="icon" src="images/icon-messages.svg" alt="icon">
-        <p> 2.7m+ </p>
+        <img class="icon_indicators" src="images/icon-messages.svg" alt="icon">
+        <p class="indicators_p"> 2.7m+ </p>
         <p> Messages Sent </p>
       </div>
     </div>
     <div class="description">
       <div class="description_1">
+        <div class="description_text">
         <h2> Grow Together </h2>
         <p> Generate meaningful discussions with your audience and build a <br> 
           strong, loyal community. Think of the insightful conversations you <br> 
           miss out on with a feedback form.</p>
+        </div>
+        <div class="description_img">
+          <img class="img_description" src="images/illustration-grow-together.svg" alt="grow-together">
+        </div>
       </div>
       <div class="description_2">
+        <div class="description_text">
         <h2> Flowing Conversations</h2>
         <p> You wouldn't paginate a conversation in real life, so why do it online? <br> 
           Our threads have just-in-time loading for a more natural flow. </p>
+        </div>
+        <div class="description_img">
+          <img class="img_description" src="images/illustration-flowing-conversation.svg" alt="flowing-conversation">
+        </div>
       </div>
       <div class="description_3">
+        <div class="description_text">
         <h2> Your Users </h2>
         <p> It takes no time at all to integrate Huddle with your app's <br> 
           authentication solution. This means, once signed in to your app, your <br> 
           users can start chatting immediately.</p>
+        </div>
+        <div class="description_img">
+          <img class="img_description" src="images/illustration-your-users.svg" alt="your-users">
+        </div>
       </div>
     </div>
     <div class="community_free">
